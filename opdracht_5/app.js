@@ -1,10 +1,10 @@
 let title = document.getElementById("title");
 
-function changeColor() {
+function changeText() {
     console.log("De functie werkt!");
-    red();
+    changeText();
 }
 
-function red() {
-    title.style.color = "red";
+function changeText() {
+    title.innerText = "Inhoud aangepast!";
 }
